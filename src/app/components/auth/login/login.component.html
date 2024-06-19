@@ -1,0 +1,34 @@
+<div class="wrapper" style="background-image: url('images/bg-registration-form-1.jpg');">
+    <div class="inner">
+      <div class="image-holder">
+        <img src="images/registration-form-1.jpg" alt="">
+      </div>
+      <form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+        <h3>LOGIN</h3>
+
+        <div class="form-wrapper">
+          <input type="text" placeholder="Email Address" class="form-control" formControlName="email">
+          <i class="zmdi zmdi-email"></i>
+        </div>
+
+        <div class="form-wrapper">
+          <input type="password" placeholder="Password" class="form-control" formControlName="password">
+          <i class="zmdi zmdi-lock"></i>
+        </div>
+
+        <button type="submit">Login
+          <i class="zmdi zmdi-arrow-right"></i>
+        </button>
+
+        <button (click)="onClick()"> Login With Google
+          <i class="zmdi zmdi-arrow-right"></i>
+        </button>
+
+        <p style="text-align:center; margin-top: 20px;">
+            You do not have an account?
+            <a routerLink="/register">Register now</a>
+        </p>
+
+      </form>
+    </div>
+</div>

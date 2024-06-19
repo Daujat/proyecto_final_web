@@ -1,0 +1,37 @@
+<!--Pricing Tables-->
+
+<section id="pricing" class="secondary-color text-center scrollto clearfix ">
+  <div class="row clearfix">
+    <div class="section-heading">
+      <h3>YOUR CHOICE</h3>
+      <h2 class="section-title">We have the right package for you</h2>
+    </div>
+
+    <ng-container *ngFor="let pricing of pricingOptions; let i = index">
+
+      <!--Pricing Block-->
+
+      <div class="pricing-block col-3 wow fadeInUp" [attr.data-wow-delay]="0.4 + 0.2 * i + 's'">
+        <div class="pricing-block-content">
+          <h3>{{ pricing.name }}</h3>
+          <p class="pricing-sub">{{ pricing.sub }}</p>
+
+          <div class="pricing">
+            <div class="price"><span>$</span>{{ pricing.price }}</div>
+            <p>{{ pricing.description }}</p>
+          </div>
+
+          <ul>
+            <li *ngFor="let feature of pricing.features">{{ feature }}</li>
+          </ul>
+          <a class="button">BUY TODAY</a>
+        </div>
+      </div>
+
+      <!--End Pricing Block-->
+    </ng-container>
+
+  </div>
+
+</section>
+<!--End of Pricing Tables-->

@@ -1,0 +1,37 @@
+.not-found-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/images/not-found.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+}
+
+h1 {
+    margin: 0; 
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: #fff;
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("/fonts/poppins/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("/fonts/poppins/Poppins-SemiBold.ttf"); 
+}
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Poppins-Regular"; }

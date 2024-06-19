@@ -1,0 +1,43 @@
+{
+  "testimonials": {
+    "1": {
+      "name": "John Doe",
+      "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/laboratorio-12-web-djvp.appspot.com/o/user-1.jpg?alt=media&token=some-token"
+    },
+    "2": {
+      "name": "Roslyn Doe",
+      "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/laboratorio-12-web-djvp.appspot.com/o/user-2.jpg?alt=media&token=some-token"
+    },
+    "3": {
+      "name": "Thomas Doe",
+      "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/laboratorio-12-web-djvp.appspot.com/o/user-3.jpg?alt=media&token=some-token"
+    }
+  },
+
+  "pricing": {
+    "1": {
+      "name": "Personal",
+      "sub": "The standard version",
+      "price": 19,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "features": ["5 Downloads", "2 Extensions", "Tutorials", "Forum Support", "1 year free updates"]
+    },
+    "2": {
+      "name": "Student",
+      "sub": "Most popular choice",
+      "price": 29,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "features": ["15 Downloads", "5 Extensions", "Tutorials with Files", "Forum Support", "2 years free updates"]
+    },
+    "3": {
+      "name": "Business",
+      "sub": "For the whole team",
+      "price": 49,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "features": ["Unlimited Downloads", "Unlimited Extensions", "HD Video Tutorials", "Chat Support", "Lifetime free updates"]
+    }
+  }
+}

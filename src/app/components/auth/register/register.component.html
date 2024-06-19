@@ -1,0 +1,26 @@
+<div class="wrapper" style="background-image: url('images/bg-registration-form-1.jpg');">
+  <div class="inner">
+    <div class="image-holder">
+      <img src="images/registration-form-1.jpg" alt="">
+    </div>
+    <form [formGroup]="formReg" (ngSubmit)="onSubmit()">
+      <h3>Registration Form</h3>
+      <div class="form-group">
+        <!-- Los campos de First Name y Last Name no están en tu FormGroup, si los necesitas debes agregarlos al FormGroup en el componente -->
+        <input type="text" placeholder="First Name" class="form-control">
+        <input type="text" placeholder="Last Name" class="form-control">
+      </div>
+      <div class="form-wrapper">
+        <input formControlName="email" type="text" placeholder="Email Address" class="form-control">
+        <i class="zmdi zmdi-email"></i>
+      </div>
+      <div class="form-wrapper">
+        <input formControlName="password" type="password" placeholder="Password" class="form-control">
+        <i class="zmdi zmdi-lock"></i>
+      </div>
+      <button type="submit">Register
+        <i class="zmdi zmdi-arrow-right"></i>
+      </button>
+    </form>
+  </div>
+</div>
