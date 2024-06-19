@@ -7,7 +7,8 @@ import { Auth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signO
 export class UserService {
 
   constructor(private auth: Auth) { }
-  
+
+    // Método para registrar un nuevo usuario con email y contraseña
   register({ email, password }: any) {
     return createUserWithEmailAndPassword(this.auth, email, password);
   }

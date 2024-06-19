@@ -2,17 +2,17 @@
   "testimonials": {
     "1": {
       "name": "John Doe",
-      "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "feedback": "Los servicios de Namari son excepcionales. Nos ayudaron a mejorar nuestra presencia en línea de manera significativa.",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/laboratorio-12-web-djvp.appspot.com/o/user-1.jpg?alt=media&token=some-token"
     },
     "2": {
       "name": "Roslyn Doe",
-      "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "feedback": "El equipo de Namari es muy profesional y dedicado. Su apoyo ha sido invaluable para nuestro crecimiento.",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/laboratorio-12-web-djvp.appspot.com/o/user-2.jpg?alt=media&token=some-token"
     },
     "3": {
       "name": "Thomas Doe",
-      "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "feedback": "Estamos muy contentos con los resultados obtenidos gracias a Namari. Su enfoque personalizado marcó la diferencia.",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/laboratorio-12-web-djvp.appspot.com/o/user-3.jpg?alt=media&token=some-token"
     }
   },
@@ -20,24 +20,24 @@
   "pricing": {
     "1": {
       "name": "Personal",
-      "sub": "The standard version",
+      "sub": "Versión estándar",
       "price": 19,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "features": ["5 Downloads", "2 Extensions", "Tutorials", "Forum Support", "1 year free updates"]
+      "description": "Ideal para individuos que buscan mejorar su presencia en línea.",
+      "features": ["5 Descargas", "2 Extensiones", "Tutoriales", "Soporte en Foro", "1 año de actualizaciones gratuitas"]
     },
     "2": {
-      "name": "Student",
-      "sub": "Most popular choice",
+      "name": "Estudiante",
+      "sub": "Elección más popular",
       "price": 29,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "features": ["15 Downloads", "5 Extensions", "Tutorials with Files", "Forum Support", "2 years free updates"]
+      "description": "Perfecto para estudiantes que necesitan recursos adicionales.",
+      "features": ["15 Descargas", "5 Extensiones", "Tutoriales con Archivos", "Soporte en Foro", "2 años de actualizaciones gratuitas"]
     },
     "3": {
-      "name": "Business",
-      "sub": "For the whole team",
+      "name": "Empresarial",
+      "sub": "Para todo el equipo",
       "price": 49,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "features": ["Unlimited Downloads", "Unlimited Extensions", "HD Video Tutorials", "Chat Support", "Lifetime free updates"]
+      "description": "Solución completa para equipos y empresas.",
+      "features": ["Descargas Ilimitadas", "Extensiones Ilimitadas", "Tutoriales en HD", "Soporte por Chat", "Actualizaciones gratuitas de por vida"]
     }
   }
 }

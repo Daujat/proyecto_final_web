@@ -1,0 +1,28 @@
+.button2 {
+  background-color: #000000;
+  border: none;
+  color: white;
+  font-family: "Poppins-Regular";
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s;
+}
+
+.button2:hover {
+  background-color: #000000;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("/fonts/poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("/fonts/poppins/Poppins-SemiBold.ttf");
+}
