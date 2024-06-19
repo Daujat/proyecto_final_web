@@ -19,13 +19,13 @@ export class ClientsComponent implements OnInit {
   constructor(private clientService: ClientService) {}
 
   ngOnInit(): void {
-    this.clientService.getClients().subscribe(
-      data => {
+    this.clientService.getClients().subscribe({
+      next: data => {
         this.clients = data;
       },
-      error => {
+      error: error => {
         console.error('Error al obtener los clientes:', error);
       }
-    );
+    });
   }
 }

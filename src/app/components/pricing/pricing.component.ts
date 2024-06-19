@@ -19,13 +19,13 @@ export class PricingComponent implements OnInit {
   constructor(private databaseService: DatabaseService) {}
 
   ngOnInit(): void {
-    this.databaseService.getPricing().subscribe(
-      data => {
+    this.databaseService.getPricing().subscribe({
+      next: data => {
         this.pricingOptions = data;
       },
-      error => {
+      error: error => {
         console.error('Error al obtener los precios:', error);
       }
-    );
+    });
   }
 }

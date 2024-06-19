@@ -13,6 +13,6 @@ export class ClientService {
   constructor(private http: HttpClient) {}
 
   getClients(): Observable<Client[]> {
-    return this.http.get<Client[]>(this.apiUrl);
+    return this.http.get<Client[]>(this.apiUrl); // Realiza una solicitud GET a la API y retorna un observable que emite la lista de clientes
   }
 }

@@ -18,13 +18,13 @@ export class TestimonialsComponent implements OnInit {
   constructor(private databaseService: DatabaseService) {}
 
   ngOnInit(): void {
-    this.databaseService.getTestimonials().subscribe(
-      data => {
+    this.databaseService.getTestimonials().subscribe({
+      next: data => {
         this.testimonials = data;
       },
-      error => {
+      error: error => {
         console.error('Error al obtener testimonios:', error);
       }
-    );
+    });
   }
 }

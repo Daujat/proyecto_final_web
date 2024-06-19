@@ -28,14 +28,14 @@ export class GalleryComponent implements OnInit {
     ];
 
     imagePaths.forEach((path, index) => {
-      this.storageService.getImageUrl(path).subscribe(
-        url => {
+      this.storageService.getImageUrl(path).subscribe({
+        next: url => {
           this.imageUrls[index] = url;
         },
-        error => {
+        error: error => {
           console.error('Error al obtener la URL de la imagen:', error);
         }
-      );
+      });
     });
   }
 }
